@@ -15,5 +15,11 @@
       "datasourceTemplate": "npm",
       "packageNameTemplate": "@jsr/{{namespace}}__{{package}}"
     }
+  ],
+  "hostRules": [
+    {
+      "hostType": "npm",
+      "matchHost": "https://npm.jsr.io"
+    }
   ]
 }
